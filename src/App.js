@@ -12,7 +12,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Jenkins on Udemy
+          Hurray Finally Automated the project using Jenkins CI/CD Pipeline
         </a>
       </header>
       <p>

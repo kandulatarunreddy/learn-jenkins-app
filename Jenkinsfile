@@ -93,6 +93,11 @@ pipeline {
                 '''
             }
         }
+        stage('Approval') {
+            steps {
+                input 'Read to Deploy at Prod'
+            }
+        }
 
         stage('Deploy prod') {
             agent {
